@@ -3,21 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <div class="main-box">
+    <main class="bg-fuchsia-100 h-screen">
+      <div class="main-box bg-blue-400 container mx-auto max-w-2xl">
         <section class="header-section">
-          <img src="./assets/images/icon-star.svg" />
+          <img src="../assets/images/icon-star.svg" />
           <h1>FAQs</h1>
         </section>
         <section content-section>
           <div class="content-box _1">
             <div class="question-box">
               <h1>What is Frontend Mentor, and how will it help me?</h1>
-              <img src="./assets/images/icon-plus.svg" />
+              <img src="../assets/images/icon-plus.svg" />
             </div>
             <p>
               Frontend Mentor offers realistic coding challenges to help
@@ -29,7 +29,7 @@
           <div class="content-box _1">
             <div class="question-box">
               <h1>Is Frontend Mentor free?</h1>
-              <img src="./assets/images/icon-plus.svg" />
+              <img src="../assets/images/icon-plus.svg" />
             </div>
             <p>
               Yes, Frontend Mentor offers both free and premium coding
@@ -40,7 +40,7 @@
           <div class="content-box _1">
             <div class="question-box">
               <h1>Can I use Frontend Mentor projects in my portfolio?</h1>
-              <img src="./assets/images/icon-plus.svg" />
+              <img src="../assets/images/icon-plus.svg" />
             </div>
             <p>
               Yes, you can use projects completed on Frontend Mentor in your
@@ -53,7 +53,7 @@
               <h1>
                 How can I get help if I'm stuck on a Frontend Mentor challenge?
               </h1>
-              <img src="./assets/images/icon-plus.svg" />
+              <img src="../assets/images/icon-plus.svg" />
             </div>
             <p>
               The best place to get help is inside Frontend Mentor's Discord
@@ -66,3 +66,11 @@
     </main>
   </body>
 </html>
+
+<!-- Useful notes -->
+<!-- 
+i have added a dev script to the package.json which should automatically
+rebuild the app on any changes i make. Not sure if it is working correctly as
+i have to reload the browser when i make changes. This could very well be how its supposed 
+to work though
+ -->
