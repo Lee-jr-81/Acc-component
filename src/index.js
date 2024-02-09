@@ -1,1 +1,3 @@
 "use strict";
+
+// selecting elements
